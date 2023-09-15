@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.preloader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  z-index: 9999;
+  position: fixed;
+}
+
+.lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.neurons {
+  position: relative;
+  height: calc(100vh - 20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.neuron {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+ 
+}
